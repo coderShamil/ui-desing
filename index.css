@@ -1,0 +1,269 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    /* height: 100vh; */
+}
+.mainContainer{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 75%;
+}
+a{
+    color: white;
+}
+/* logo properies */
+.logo img{
+    
+}
+.girl-img img{
+    max-width: 520px;
+    max-height: 600px;
+    width: 100%;
+    /* height: 100%; */
+    background-image: url(https://demo.bosathemes.com/html/educator/assets/img/educator-img2.png);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* display properties */
+
+
+.dFlex-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dFlex-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.dFlex-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.dFlex-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.dFlex-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.dFlex-6{
+    display: flex;
+    justify-content:flex-start;
+}
+.dFlex-7{
+    display: flex;
+    justify-content:flex-end;
+}
+.dFlex-8{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.dFlex-9{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+}
+.dFlex-10{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-end;
+}
+
+/* calumn system */
+.cal-1{
+    width:8.33%;
+}
+.cal-2{
+    width:16.66%;
+}
+.cal-3{
+    width:25%;
+}
+.cal-4{
+    width:33.33%;
+}
+.cal-5{
+    width:41.66%;
+}
+.cal-6{
+    width:50%;
+}
+.cal-7{
+    width:58.33%;
+}
+.cal-8{
+    width:66.66%;
+}
+.cal-9{
+    width:75%;
+}
+.cal-10{
+    width:83.33%;
+} 
+.cal-11{
+    width:91.66%;
+}
+.cal-12{
+    width:100%;
+}
+/* width properties */
+.width-1{
+    width: 20px;
+}
+.width-2{
+    width: 100px;
+}
+/* border properties */
+.borderBottom{
+    width: 100%;
+    height: 1px;
+    background: #8b8888;
+}
+.brB{
+    border: 1px solid black;
+}
+.brW{
+    border: 1px solid white;
+}
+.br-x{
+    border-left:1px solid gray;
+    border-right: 1px solid gray;
+}
+/* back ground properites */
+
+
+
+/* color properties */
+.clrW{
+    color: white;
+}
+.clrR-1{
+    color: rgb(224, 6, 119);
+}
+.bgclr{
+    background-color: #41246D;
+}
+/* height properties */
+.ht-1{
+    height:40px;
+}
+.ht-2{
+    height: 20px;
+}
+/* padding properties */
+.pdg{
+    padding: 10px;
+}
+.pt-1{
+    padding-top:10px;
+}
+.pt-2{
+    padding-top:20px;
+}
+.pR-1{
+    padding-right: 20px;
+}
+.pL-1{
+    padding-left: 20px;
+}
+.px-1{
+    padding: 0px 10px ;
+}
+.py-1{
+    padding: 10px 0px;
+}
+.py-2{
+    padding: 20px 0px;
+}
+.py-3{
+    padding: 30px 0px;
+}
+
+/* margin properties */
+.mt-1{
+    margin-top: 10px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.mt-3{
+    margin-top: 30px;
+}
+.mt-4{
+    margin-top: 40px;
+}
+.mt-5{
+    margin-top: 50px;
+}
+.mL-1{
+    margin-left: 20px ;
+}
+.mR-1{
+    margin-right: 20px;
+}
+.mt-6{
+    margin-top: 60px;
+}
+.mt-7{
+    margin-top: 70px;
+}
+/* button properties */
+.btn{
+    background-color: rgb(228, 72, 124);
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.btn a {
+    font-size: 17px;
+    color: white;
+}
+.btn a:hover{
+    color: rgb(19, 17, 17);
+}
+
+/* font properties */
+.fS-1{
+    font-size: 17px;
+}
+.fS-2{
+    font-size: 30px;
+}
+/* dropdown properties */
+.drp-btn{
+    position: static;
+}
+.drp-btn:hover .drp-list{
+    display: block;
+}
+.drp-list{
+    position: absolute;
+    /* border: 2px solid white; */
+    border-top: 3px solid rgb(243, 57, 88);
+    display: none;
+}
+.drp-list li{
+    border-bottom: 2px solid rgb(204, 194, 194);
+    background: #201d1d;
+}
+
+
+/* hover properties */
+.hover:hover{
+    color: rgb(224, 6, 119);    
+}

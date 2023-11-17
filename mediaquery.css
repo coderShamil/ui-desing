@@ -1,0 +1,73 @@
+@media only screen and (max-width:934px) {
+    body {}
+
+    .list-1 {
+        display: none;
+    }
+
+    .list-2 {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .left {
+        /* background-color: red; */
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+    }
+
+    .mainContainer {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .girl-img {
+        position: relative;
+    }
+
+    .girl-img img {
+        position: absolute;
+        bottom: 0px;
+    }
+}
+
+/* second media query--------------------- */
+@media screen and (max-width:1065px) {
+    .list-3 {
+        display: none;
+    }
+}
+
+/* third media query --------------------- */
+@media screen and (max-width:375px) {
+    .logo a img {
+        width: 100px;
+    }
+
+    .btn {
+        padding: 5px 10px;
+    }
+
+}
+
+/* forth media query */
+@media screen and (max-width:765px) {
+    .girl-img img {
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .girl-img {
+        width: 100%;
+    }
+
+    .media-765 {
+        width: 100%;
+    }
+    .fS-2{
+        font-size: 20px;
+    }
+
+}
